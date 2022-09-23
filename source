@@ -17,7 +17,7 @@ local UICorner_4 = Instance.new("UICorner")
 --Properties:
 
 VeryPopularNameLol.Name = "VeryPopularNameLol"
-VeryPopularNameLol.Parent = game.CoreGui
+VeryPopularNameLol.Parent = game.Players:FindFirstChild("LocalPlayer")
 VeryPopularNameLol.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
